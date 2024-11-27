@@ -18,6 +18,8 @@ require("lazy").setup({
   spec = {
     -- add LazyVim and import its plugins
     { "LazyVim/LazyVim", import = "lazyvim.plugins" },
+    { import = "lazyvim.plugins.extras.lang.go" }, -- golang extension
+    { import = "lazyvim.plugins.extras.dap.core" }, -- debugger extension
     -- import/override with your plugins
     { import = "plugins" },
   },
