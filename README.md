@@ -3,6 +3,14 @@
 A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
 Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
 
+## Choose the Lazyvim version
+- Change the Lazyvim version by modifying the `plugins/core.lua` file
+
+## How to use Lazy Extra
+1. type `nvim` in the terminal
+2. Select Lazy LazyExtra
+3. type `x` to enable an extension
+
 ## Codeium Configuration
 - Log in to Codeium:
   1. `:Codeium Auth`
