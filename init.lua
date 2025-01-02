@@ -2,4 +2,3 @@
 require("config.lazy")
 
 vim.opt.listchars:append("trail:·")
-vim.g.lazyvim_picker = "telescope"

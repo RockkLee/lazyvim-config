@@ -1,3 +1,4 @@
+-- LSP configuration
 return {
   "mfussenegger/nvim-dap",
   opts = function(_, opts)
@@ -9,7 +10,7 @@ return {
     -- Insert a NEW configuration
     table.insert(dap.configurations.go, {
       type = "delve",
-      name = "Debug with outputs",
+      name = "Debug (Display print outputs)",
       request = "launch",
       program = "${file}",
       outputMode = "remote",
