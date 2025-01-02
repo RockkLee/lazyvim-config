@@ -11,6 +11,9 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 2. Select Lazy LazyExtra
 3. type `x` to enable an extension
 
+## Restore plugins version based on the `lazy-lock.json` file
+`:Lazy restore`
+
 ## Codeium Configuration
 - Log in to Codeium:
   1. `:Codeium Auth`
