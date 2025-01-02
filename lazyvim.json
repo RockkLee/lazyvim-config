@@ -1,9 +1,10 @@
 {
   "extras": [
-    "lazyvim.plugins.extras.coding.codeium"
+    "lazyvim.plugins.extras.coding.codeium",
+    "lazyvim.plugins.extras.editor.telescope"
   ],
   "news": {
-    "NEWS.md": "4964"
+    "NEWS.md": "10960"
   },
-  "version": 5
+  "version": 7
 }
