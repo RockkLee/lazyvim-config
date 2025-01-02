@@ -30,4 +30,4 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 ### Related to LSP (Language Server Protocol)
 - `K`: Show a document
 - `<leader> -> gd`: Go to definition
-- `cd`: Show diagnostics (Use this to show warnings or errors on a pop-up window)
+- `<leader> -> cd`: Show diagnostics (Use this to show warnings or errors on a pop-up window)
