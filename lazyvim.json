@@ -2,7 +2,8 @@
   "extras": [
     "lazyvim.plugins.extras.coding.codeium",
     "lazyvim.plugins.extras.coding.nvim-cmp",
-    "lazyvim.plugins.extras.editor.telescope"
+    "lazyvim.plugins.extras.editor.telescope",
+    "lazyvim.plugins.extras.lang.terraform"
   ],
   "news": {
     "NEWS.md": "10960"
