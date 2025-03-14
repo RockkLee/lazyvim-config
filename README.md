@@ -6,6 +6,16 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 ## Choose the Lazyvim version
 - Change the Lazyvim version by modifying the `plugins/core.lua` file
 
+## Disable the update checker
+- lua/config/lazy.lua
+```lua
+require("lazy").setup({
+  -- your plugin specifications go here,
+  checker = { enabled = false },
+})
+
+```
+
 ## How to use Lazy Extra
 1. type `nvim` in the terminal
 2. Select Lazy LazyExtra
