@@ -44,3 +44,7 @@ require("lazy").setup({
 - `K`: Show a document
 - `<leader> -> gd`: Go to definition
 - `<leader> -> cd`: Show diagnostics (Use this to show warnings or errors on a pop-up window)
+
+### Switch tabs
+- bh: BufferLineMovePrev
+- bl: BufferLineMoveNext
