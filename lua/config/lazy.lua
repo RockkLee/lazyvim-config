@@ -20,7 +20,7 @@ require("lazy").setup({
     { "LazyVim/LazyVim", import = "lazyvim.plugins" },
     { import = "lazyvim.plugins.extras.lang.go" }, -- golang extension
     { import = "lazyvim.plugins.extras.dap.core" }, -- debugger extension
-    { import = "lazyvim.plugins.extras.ai.codeium" }, -- codeium extension
+    -- { import = "lazyvim.plugins.extras.ai.codeium" }, -- codeium extension
     -- import/override with your plugins
     { import = "plugins" },
   },
